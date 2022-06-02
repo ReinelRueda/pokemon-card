@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aquamarine;
+}
+.card-container{
+    
+    height: 400px;
+    width: 280px;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+}
+.card-header{
+    background-color: blueviolet;
+    height: 30%;
+    width: auto;
+}
+.card-body{
+    background-color:white;
+    height: 70%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+img{
+    height: 180px;
+    width: 180px;
+    background-color: brown;
+    border-radius: 100%;
+    margin-top: -90px;
+}
+.hola{
+    margin-top: 50px;
+    align-self: flex-end;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+}
+.hola p {
+    padding: 20px;
+}
