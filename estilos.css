@@ -29,11 +29,12 @@ body{
     
 }
 img{
-    height: 180px;
-    width: 180px;
-    background-color: brown;
+    height: 100px;
+    width: 100px;
+    background-color:white;
+    border: 1px solid black;
     border-radius: 100%;
-    margin-top: -90px;
+    margin-top: -50px;
 }
 .hola{
     margin-top: 50px;
